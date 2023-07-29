@@ -1,0 +1,283 @@
+*{
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+  
+}
+
+.logo{
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+body{
+    background-color: rgb(67, 67, 67);
+    color: aliceblue;
+   
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: rgb(255, 100, 100);
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    opacity: 0;
+    transition: all .3s ease;
+}
+
+nav ul li {
+    margin-left: 50px;
+}
+
+nav ul li a{
+    color: inherit;
+    text-decoration: none;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 15px;
+}
+
+nav ul li a:hover{
+   color: rgb(42, 42, 42);
+   
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 20px;
+}
+
+.menu input{
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.menu span {
+    width: 24px;
+    height: 4px;
+    border-radius: 2px;
+    background-color: aliceblue;
+    display: block;
+    transition: all .3s ease;
+    
+}
+
+
+.menu input:checked ~ span:nth-child(2){
+    background-color: rgb(88, 177, 255);
+    width: 20px;
+}
+
+.menu input:checked ~ span:nth-child(3){
+    background-color: rgb(141, 88, 255);
+    width: 24px;
+}
+
+.menu input:checked ~ span:nth-child(4){
+    background-color: rgb(88, 107, 255);
+    width: 15px;
+}
+
+.opas{
+    opacity: 100;
+}
+
+.opas1{
+    opacity: 100;
+}
+
+.page  {
+    background-color: aqua;
+    width: 115rem;
+    height: 815px;
+    margin: 45px auto;
+    display: flex;
+}
+
+.page1{
+    width: 50%;
+    height: 100%;
+    background-color: antiquewhite;
+}
+
+.page2{
+    width: 400px;
+    height: 60%;
+    /* background-color: rgb(255, 42, 42); */
+    position: absolute;
+    border-radius: 15px;
+    margin-left: 730px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 25px;
+    font-weight: 1000px;
+    color: rgb(66, 66, 66);
+}
+
+
+.page3{
+    width: 50%;
+    height: 100%;
+    background-color: rgb(234, 146, 32);
+}
+
+
+
+
+
+.bab{
+    background-color: aqua;
+    width: 115rem;
+    height: 880px;
+    margin: 40px auto;
+    display: flex;
+}
+
+
+.bab1{
+    width: 50%;
+    height: 100%;
+    background-color: antiquewhite;
+}
+
+.bab2{
+    width: 50%;
+    height: 100%;
+    background-color: rgb(178, 178, 178);
+}
+
+
+@media screen and (max-width:400px) {
+    
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+}
+
+nav ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    list-style: none;
+    opacity: 100;
+    transition: all .3s ease;
+    position: absolute;
+    background-color: rgb(59, 59, 59);
+    right: 0;
+    margin-top: 40px;
+    height: 300px;
+    width: 200px;
+    border-radius: 15px;
+    margin-right: 20px;
+    opacity: 0;
+}
+
+
+.menu span {
+    width: 24px;
+    height: 4px;
+    border-radius: 2px;
+    background-color: rgb(54, 54, 54);
+    display: block;
+    transition: all .3s ease;
+    
+}
+
+nav ul li {
+    margin-left: 0px;
+}
+
+nav ul li a{
+    color: inherit;
+    text-decoration: none;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 15px;
+}
+
+
+.page{
+    background-color: rgb(101, 105, 105);
+    width: 405px;
+    height: 785px;
+    margin:  auto;
+    display: flex;
+}
+
+
+
+.page1{
+    width: 50%;
+    height: 100%;
+    background-color: antiquewhite;
+}
+
+.page2{
+    width: 50%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    margin-left: 110px;
+    margin-top: 10px;
+}
+
+
+.page3{
+    width: 50%;
+    height: 100%;
+    background-color: rgb(234, 146, 32);
+}
+
+
+
+.bab{
+    background-color: rgb(79, 79, 79);
+    width: 115rem;
+    height: 880px;
+    margin: 40px auto;
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
