@@ -226,13 +226,13 @@ nav ul li a{
 }
 
 .page2{
-    width: 50%;
+    width:50%;
     height: 90%;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 20px;
-    margin-left: 110px;
+    margin-left: 90px;
     margin-top: 10px;
 }
 
